@@ -4,7 +4,6 @@
 #include <unordered_map>
 #include <algorithm>
 #include <unordered_set>
-#include <numeric>
 using namespace std;
 
 int main() {
@@ -16,6 +15,7 @@ int main() {
     }
     int ans = -1;
     sort(a.begin(), a.end());
+    // find largest even
     vector<int> e, o;
     for (int i = a.size() - 1; i >= 0; i--) {
         if (!(a[i] & 1)) {
