@@ -7,6 +7,11 @@
 #include <deque>
 #include <string>
 #include <iomanip>
+
+/*
+    T: O(log^2 (N))
+    Faster than editorial's O(N log(N))
+*/
  
 using namespace std;
 
